@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: blueviolet;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+header{
+    background-color:blue;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 0;
+
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    width: 680px;
+    margin-left: 80px;
+    background-color: darkgreen;
+    padding: 20px 0;
+}
+a{
+    text-decoration: none;
+    
+    color: black;
+    font-size: 10px;
+    margin-left: 20px;
+}
+
+a:hover{
+    color: gray;
+    border-bottom: 2px double gray;
+}
+.miicono-hero{
+    font-size: 20px;
+    margin-left: 15px;
+    color:grey;
+}
+.miicono-hero:hover{
+    
+    cursor: pointer;
+    color: lightcoral;
+
+}
+
+main{
+    
+    background-color: aquamarine;
+    
+}
+.hero1 {
+    display: flex;
+    background-color:#f5df4e;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+
+.contenedor-datos-hero1 {
+    background-color: brown;
+    margin: 0 50px;
+    
+}
+
+.hola{
+    font-size: 30px;
+
+}
+.developer{
+    font-size: 80px;
+}
+
+.vivo{
+    font-size: 20px;
+}
+
+.hero-boton{
+
+}
+
+
+.imag-perfil{
+    width: 20%;
+    border-radius: 50%;
+    border: 15px solid white;
+   
+}
+
