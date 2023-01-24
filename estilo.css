@@ -1,58 +1,93 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,600;0,800;0,900;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200&display=swap');
+
+
 body{
-    background-color: blueviolet;
+    background-color:white;
     width: 100%;
-    margin: 0 auto;
+    height: 100%;
+        
 }
-
-
 
 header{
-    background-color:blue;
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    padding: 10px 0;
-
+    justify-content: center;
+  
+    
 }
+
 .header {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-nav{
-    width: 680px;
-    margin-left: 80px;
-    background-color: darkgreen;
-    padding: 20px 0;
-}
-a{
-    text-decoration: none;
+    justify-content: space-around;
+    padding: 15px 0;
     
-    color: black;
-    font-size: 10px;
-    margin-left: 20px;
 }
 
-a:hover{
-    color: gray;
+.nombre {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    padding-right: 60px;
+}
+
+
+.menu-header a{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin-left: 30px;
+    font-weight: 550;
+    width: 400px;
+     
+}
+
+ .menu-header :hover{
+    color: #eee8aa;
     border-bottom: 2px double gray;
 }
-.miicono-hero{
-    font-size: 20px;
-    margin-left: 15px;
-    color:grey;
+
+a .miicono-hero:hover{
+    color: #eee8aa;
+    
 }
-.miicono-hero:hover{
+
+.iconos-social{
+    margin-left: 60px;
+    width: 300px;
+    padding-left: 100px;
+    
+}
+.miicono-hero {
+    padding: 0px 10px; 
+    color: black;
+    font-size: 20px;
+
+}
+.iconos-social :hover{
     
     cursor: pointer;
-    color: lightcoral;
+    color: #eee8aa;
+    border-bottom: none;
+ 
+}
+/*COMIENZA MAIN*/
 
+
+.contenedor-datos-hero1{
+    cursor: default;
+    margin-left: 80px;
+    padding: 20px 0;
 }
 
 main{
@@ -62,32 +97,43 @@ main{
 }
 .hero1 {
     display: flex;
-    background-color:#f5df4e;
+    background-color:#eee8aa;
     align-items: center;
     justify-content: center;
-    height: 500px;
+    height: 700px;
 }
 
 .contenedor-datos-hero1 {
-    background-color: brown;
-    margin: 0 50px;
+    margin:  70px;
     
 }
 
-.hola{
+.hola {
     font-size: 30px;
-
+    font-family: 'Be Vietnam Pro', sans-serif;
+    padding: 10px 0;
+    font-weight: 10px;
 }
 .developer{
-    font-size: 80px;
+    font-size: 90px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    padding: 10px 0;
+   
 }
 
 .vivo{
     font-size: 20px;
-}
+    font-family: 'Be Vietnam Pro', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}   
 
 .hero-boton{
-
+    background-color: black;
+    color: white;
+    padding: 15px 35px;
+    border: 1px solid black;
+        
 }
 
 
@@ -98,3 +144,13 @@ main{
    
 }
 
+.contactame{
+    color: black;
+    padding-left: 30px;
+}
+
+.flecha{
+    color: black;
+}
+
+/*FIN SECCIÓN HERO 1*/
