@@ -12,136 +12,287 @@
 
 <body>
     <header>
-    <div class="header">
-        <h1 class="nombre">EVA</h1>
+    <div class="header-nav">
+        <h1>EVA</h1>
 
         <nav class="menu-header">
-            <a href="">INICIO</a>
-            <a href="">ACERCA DE</a>
-            <a href="">SERVICIOS</a>
-            <a href="">RESUME</a>
-            <a href="">PORTFOLIO</a>
-            <a href="">CONTACTO</a>
+            <a href="#">INICIO</a>
+            <a href="#">ACERCA DE</a>
+            <a href="#">SERVICIOS</a>
+            <a href="#">RESUME</a>
+            <a href="#">PORTFOLIO</a>
+            <a href="#">CONTACTO</a>
             
         </nav>
 
-        <nav class="iconos-social">
-            <a href="https://www.facebook.com/evangelina.gillig/"> <i class="bi bi-facebook miicono-hero"></i></a>
-            <a href=""> <i class="bi bi-twitter miicono-hero"></i></a>
-            <a href="https://www.instagram.com/evagillig/"> <i class="bi bi-instagram miicono-hero"></i></a>
-        </nav>
+        <div class="redes">
+            <a href="https://www.facebook.com/evangelina.gillig"> <i class="bi bi-facebook"></i></a>
+            <a href=""> <i class="bi bi-twitter"></i></a>
+            <a href="https://www.instagram.com/evagillig/"> <i class="bi bi-instagram"></i></a>
+            <a href="https://github.com/evagillig"> <i class="bi bi-github"></i></a>
+        </div>
+       
         <!--no tengo twitter-->
-
     </div>
+
     </header>
 
     <main>
-        <section class="hero1">
-        <div class="contenedor-datos-hero1">
-            <h1 class="hola"> HOLA, SOY FREELANCER</h1>
-            <h1 class="developer"> DEVELOPER</h1>
-            <p class="vivo"> vivo en Santa Fe, Argentina</p>
-                          
-            <a href="https://www.facebook.com/evangelina.gillig/"><button class="hero-boton">Ver mis trabajos </button>
-            <a class= "contactame" href="">Contáctame</a>
-            <a href=""> <i class="bi bi-arrow-down-circle flecha"></i></a>
-        </div>       
-       <!-- OJO: VER MIS TRABAJOS LLEVA A MI PAG. FACEBOOK-->
-        
-        <img class="imag-perfil" src="eva.jpg" alt="">
-        </section>
+      <section class="hero1-hola" >
+        <div class="datos-introduccion">
+            <h2> hola, soy freelancer</h2>
+            <h1>DESARROLLADORA</h1>
+            <h3>vivo en Santa Fe, Argentina</h3>
+            <button> Mira mis trabajos</button>
+            <a href="#">contáctame</a>
+            <a href="#"><i class="bi bi-arrow-down-circle flecha"></i></a>
+        </div>
 
-        <section class="hero2">
-            <p class="p-hero"> ABOUT ME</p>
-            <h1 class="h1-hero"> KNOW ME MORE</h1>
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam in adipisci tempore eaque sint commodi vero qui sequi</p>
-            <p>is natus adipisci hic laborum temporibus! Atque, quam cum?</p>
-            <p>is natus adipisci hic laborum temporibus! Atque, quam cum?</p>
-            <p>22</p>
+        <img class="img-perfil" src="eva.jpg" alt="">
 
-            <table >
-                <tr> 
-                    <td> Nombre</td>   
-                    <td> E-mail</td> 
-                    <td> Fecha de nacimiento</td>
-                    <td> Lugar </td>
-                </tr>
-                <tr>
-                    <td> Eva Gillig</td>
-                    <td> evagillig@hotmail.com</td>
-                    <td> 22 Agosto, 1974</td>
-                    <td> Santa Fe, Argentina</td>
-                </tr>
+      </section> 
 
-            </table>
-        </section>
-        
-        <section class="hero3">
-            <p class="p-hero"> qué hago yo?</p>
-            <h1 class="h1-hero"> Como puedo ayudarte en tu próximo proyecto</h1>
-            <!-- OJO!! VER SI es una tabla con gráficos???-->
+      <section class="hero2-yo">
+        <p>acerca de mi</p>
+        <h2> Conoceme más</h2>
 
-        </section>
+        <div class="acerca-de-mi">
+            <p>Hola, soy <span class=" eva"> Eva Gillig </span></p>
+            <p>Lorem, ipsum dolor sit amet consectetur adi</p>
+        </div>
 
+        <div class="numero">
+            <div class="contenedor-circulo">
+                <span class="circulo">22</span>
+            </div>
+            <p> años de <span class= "exp"> experiencia </span></p>
+            
+        </div>
 
-        <section class="hero4">
-            <p class="p-hero">Resume</p>
-            <h1 class="h1-hero">A summary ...</h1>
-            <!-- OJO- VER SI ES TABLA-->
-
-            <h2> My Skills</h2>
-            <p> We Design</p>
-
-            <p> We Design</p>
-
-            <p> We Design</p>
-
-            <p> We Design</p>
-
-            <p> We Design</p>
-
-            <p> We Design</p>
-            <!-- VER BARRAS PROGRESOS-->
-
-            <button>Dowload CV</button>
-
-
-        </section>
-
-        <section class="hero5">
-            <p class="p-hero">Portfolio</p>
-            <h1 class="h1-hero">Some of ...</h1>
-            <!-- nav???-->
-            <div>
-                <img src="campo-violeta.jpg" alt="">
-                <img src="campo-violeta.jpg" alt="">
-                <img src="campo-violeta.jpg" alt="">
-                <img src="campo-violeta.jpg" alt="">
-                <img src="campo-violeta.jpg" alt="">
-                <img src="campo-violeta.jpg" alt="">
-
+        <div class="datos-personales">
+            <div class="nombre">
+                <p>Nombre:</p>
+                <p> Eva Gillig</p>
             </div>
 
-        </section>
+            <div class="email">
+                <p>E-mail</p>
+                <p>evagillig@hotmail.com</p>
+            </div>
 
+            <div class="Nacimiento">
+                <p>Fecha de nacimiento</p>
+                <p>22 Agosto, 1974</p>
+            </div>
+
+            <div class="from">
+                <p> Vivo en:</p>
+                <p> Rafaela, Santa Fe, AR</p>
+            </div>
+
+        </div>
+
+      </section>
+
+      <section class="hero3-conocimientos">
+        <p> Qué hago yo?</p>
+        <h2> ¿Cómo puedo ayudarte en tu próximo proyecto?</h2>
+
+        <div class="contenedor-conocimientos">
+            <div class="grafic">
+                <i class="bi bi-arrow-down-circle flecha"></i>
+                <p> Diseñador grafico</p>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam non numquam pariatur inventore repudiandae! Natus, soluta.</p>
+            </div>
+
+            <div class="design">
+                <i class="bi bi-arrow-down-circle flecha"></i>
+                <p> Diseñador grafico</p>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam non numquam pariatur inventore repudiandae! Natus, soluta.</p>
+            </div>
+
+            <div class="developer">
+                <i class="bi bi-arrow-down-circle flecha"></i>
+                <p> Diseñador grafico</p>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam non numquam pariatur inventore repudiandae! Natus, soluta.</p>
+            </div>
+
+            <div class="brand">
+                <i class="bi bi-arrow-down-circle flecha"></i>
+                <p> Diseñador grafico</p>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam non numquam pariatur inventore repudiandae! Natus, soluta.</p>
+            </div>
+
+            <div class="business">
+                <i class="bi bi-arrow-down-circle flecha"></i>
+                <p> Diseñador grafico</p>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam non numquam pariatur inventore repudiandae! Natus, soluta.</p>
+            </div>
+
+            <div class="marketing">
+                <i class="bi bi-arrow-down-circle flecha"></i>
+                <p> Diseñador grafico</p>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam non numquam pariatur inventore repudiandae! Natus, soluta.</p>
+            </div>
+         
+        </div>
+
+      </section>
+
+      <section class= "hero4-resume">
+        <h2>Un resumen de mi curriculum</h2>
+
+        <div class="titulos">
+            <p> Mi educación</p>
+            <p> Mi experiencia</p>
+        </div>
+
+        <div class="estudios">
+            
+        <div class="titulo-a">
+            <h3>titulo universitario</h3>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quibusdam cum eum </p>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam non numquam </p>
+        </div>
+
+        <div class="titulo-b">
+            <h3>titulo universitario</h3>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quibusdam cum eum </p>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam non numquam </p>
+        </div>
+
+        <div class="titulo-c">
+            <h3>titulo universitario</h3>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quibusdam cum eum </p>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam non numquam </p>
+        </div>
+
+        </div>
+
+        <div class="experiencia">
+            
+            <div class="experiencia-a">
+                <h3>titulo universitario</h3>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quibusdam cum eum </p>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam non numquam </p>
+            </div>
+    
+            <div class="experiencia-b">
+                <h3>titulo universitario</h3>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quibusdam cum eum </p>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam non numquam </p>
+            </div>
+    
+            <div class="experiencia-c">
+                <h3>titulo universitario</h3>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quibusdam cum eum </p>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam non numquam </p>
+            </div>
+    
+            </div>
+
+            <div class="habilidades"> 
+                <h2> mis habilidades</h2>
+
+                <p>Web Design</p>
+                <p>65%</p>
+                <div class="contenedor">
+                    <div class="barra1"></div>
+                </div>
+
+                <p>ReactJS</p>
+                <p>70%</p>
+                <div class="contenedor">
+                    <div class="barra2"></div>
+                </div>
+
+                <p>HTML/CSS</p>
+                <p>95%</p>
+                <div class="contenedor">
+                    <div class="barra3"></div>
+                </div>
+
+                <p>Angular JS</p>
+                <p>60%</p>
+                <div class="contenedor">
+                    <div class="barra4"></div>
+                </div>
+
+                <p>JavaScript</p>
+                <p>80%</p>
+                <div class="contenedor">
+                    <div class="barra5"></div>
+                </div>
+
+                <p>Bootstrap</p>
+                <p>99%</p>
+                <div class="contenedor">
+                    <div class="barra6"></div>
+                </div>
+            </div>
+            <div class="boton">
+                <button> <a class="CV" href="#"> Descarga CV</a> </button>
+            </div>
+
+      </section>
+
+      <section class="hero5-proyectos">
+        <p> Portfolio</p>
+        <h2>Algunos de mis proyectos más recientes</h2>
+
+        <div class="imagenes">
+            <img src="campo-violeta.jpg" alt="">
+            <img src="campo-violeta.jpg" alt="">
+            <img src="campo-violeta.jpg" alt="">
+            <img src="campo-violeta.jpg" alt="">
+            <img src="campo-violeta.jpg" alt="">
+            <img src="campo-violeta.jpg" alt="">
+
+        </div>
+
+      </section>
+      
     </main>
 
     <footer>
-        <h1 class="h1-hero"> let´s get...</h1>
-        <p class="p-hero">I enjoy... ...</p>
-        <p>living in...</p>
-        <p>living in...</p>
-        <p>living in...</p>
-        <p>living in...</p>
+      <div class="info" >
+        <h2> Mantengámonos en contacto</h2>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda quod possimus eligendi non nihil obcaecati molestias fugit doloribus ipsam, ipsum ad </p>
+      
+        <h3> Vivo en:</h3>
+        <p> Rafaela, Santa Fe- Argentina</p>
 
-        <a href=""> <i class="bi bi-twitter miicono"></i></a>
-        <a href="https://www.facebook.com/evangelina.gillig/"> <i class="bi bi-facebook miicono"></i></a>
-        <a href="https://www.instagram.com/evagillig/"> <i class="bi bi-instagram miicono"></i></a>
-        <a href=""> <i class="bi bi-twitter miicono"></i></a>
-        <a href=""> <i class="bi bi-twitter miicono"></i></a>
+        <h3> Teléfono</h3>
+        <p> 03492-15669757</p>
 
-        <h1 class="h1-hero"> Estimate ......</h1>
-        <!-- VER SI ES FORMULARIO Y SI TODO ES DE FOOTER-->
+        <div class="redesFooter">
+            <a href="https://www.facebook.com/evangelina.gillig"> <i class="bi bi-facebook"></i></a>
+            <a href=""> <i class="bi bi-twitter"></i></a>
+            <a href="https://www.instagram.com/evagillig/"> <i class="bi bi-instagram"></i></a>
+            <a href="https://github.com/evagillig"> <i class="bi bi-github"></i></a>
+        </div>
+    
+      </div>
+
+      <div class="formulario">
+        <h2> Evaluo tu proyecto?</h2>
+
+      <form action="">
+        <label> Ingresa tu nombre</label>
+        <input type="text" autocomplete="off" required>
+
+        <label> Ingresa tu dirección de Email</label>
+        <input type="email" autocomplete="off" required>
+
+        <label> Dime cómo puedo ayudarte?</label>
+        <textarea> mensaje</textarea>
+
+        <button input="submit">Enviar <i class="bi bi-arrow-right"></i></button>
+      </form>
+
+      </div>
+
+
     </footer>
 
 
