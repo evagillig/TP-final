@@ -77,20 +77,111 @@ align-items: center;
     width: 20%;
     border-radius: 50%;
     border: 15px solid white;
-    box-shadow: 20px 20px 40px rgb(33, 32, 32);
+    box-shadow: 5px 5px 100px rgb(109, 98, 64);
 } 
-/*VER TEMA BOX-SHADOW*/
+
 
 /*INICIO SECCION 2*/
 
 .hero2-acercaDe{
-    background-color: darkseagreen;
+    background-color: white;
     padding: 60px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
 
 }
 
+h4{
+    padding: 2px 6px;
+    background-color: rgba(245,223,78,255);
+}
+
+h2{
+    padding: 10px 0;
+}
+
+.exp{
+    font-size: 30px;
+}
+
+/*VER COMO PONGO NEGRITA EN EVA GILLIG*/
+
+
+.contenedor-acerca{
+    display: flex;
+    padding: 30px;
+    
+
+}
+
+.acerca-de-mi{
+    width: 800px;
+}
+
+
+.acerca-de-mi p{
+    padding: 5px 0;
+}
+
+
+.eva{
+    text-decoration-line: underline;
+    text-decoration-color: rgba(245,223,78,255);
+    
+}
+
+/*ver subrayar linea amarilla*/
+.años{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 80px;
+}
+
+.años p{
+    text-align: center;
+    padding: 20px;
+}
+
+.contenedor-circulo{
+    background-color: rgba(245,223,78,255);
+    border-radius: 50%;
+    width:70px;
+    height: 70px;
+
+}
+.circulo {
+    font-size: 80px;
+   
+}
+
+.datos-personales{
+    display: flex;
+   
+    
+}
+
+.nombre,.email,.nacimiento, .from {
+    margin-right: 100px;
+}
+
+.datos-personales h5{
+    font-size: 20px;
+}
+.mail {
+    text-decoration: underline;
+}
+
+
+/*INICIA SECTION 3*/
+
+
+
 .hero3-conocimientos{
-    background-color: gold;
+    background-color: rgb(231, 14, 137);
     padding: 60px 0;
 
 }
