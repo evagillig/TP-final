@@ -3,3 +3,47 @@
     padding: 0;
     
 }
+
+.navegacion{
+    background-color: aqua;
+    padding: 15px 0;
+
+}
+
+
+
+
+.hero1-inicio{
+background-color: burlywood;
+padding: 60px 0;
+}
+
+.hero2-acercaDe{
+    background-color: darkseagreen;
+    padding: 60px 0;
+
+}
+
+.hero3-conocimientos{
+    background-color: gold;
+    padding: 60px 0;
+
+}
+
+.hero4-resume{
+    background-color: aquamarine;
+    padding: 60px 0;
+}
+
+.hero5-proyectos{
+    background-color: blue;
+    padding: 60px 0;
+    
+}
+
+
+footer{
+    background-color: lightpink;
+    padding: 60px 0;
+    
+}
