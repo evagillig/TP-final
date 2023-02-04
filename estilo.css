@@ -5,18 +5,83 @@
 }
 
 .navegacion{
-    background-color: aqua;
+    background-color: white;
     padding: 15px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.navegacion h1{
+   font-size: 30px; 
+   text-transform: uppercase;
+}
+
+.navegador a{
+    text-decoration: none;
+    margin-left: 18px;
+    color: black;
 
 }
 
+.redes a{
+    color:dimgray;
+    margin-left: 10px;
+}
+/* falta poner header fijo + hover*/
 
-
+/*inicia 1er section*/
 
 .hero1-inicio{
-background-color: burlywood;
-padding: 60px 0;
+background-color: rgba(245,223,78,255);
+padding: 80px 0;
+display: flex;
+justify-content: center;
+align-items: center;
 }
+
+.datos {
+    margin-right: 100px;
+
+}
+
+.datos h2{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.datos h1{
+    font-size: 70px;
+    padding: 10px 0;
+}
+
+.datos h3{
+    padding-bottom: 25px;
+
+}
+
+.datos button{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    padding: 10px 25px;
+    margin-right: 30px;
+}
+
+.datos a{
+    color: black;
+}
+
+.img-perfil {
+    width: 20%;
+    border-radius: 50%;
+    border: 15px solid white;
+    box-shadow: 20px 20px 40px rgb(33, 32, 32);
+} 
+/*VER TEMA BOX-SHADOW*/
+
+/*INICIO SECCION 2*/
 
 .hero2-acercaDe{
     background-color: darkseagreen;
@@ -45,5 +110,5 @@ padding: 60px 0;
 footer{
     background-color: lightpink;
     padding: 60px 0;
-    
+
 }
