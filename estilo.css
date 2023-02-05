@@ -357,14 +357,82 @@ img {
 
 }
 
-
-
-
+/*INICIA FOOTER*/
 
 
 
 footer{
-    background-color: lightpink;
+    background-color:rgba(245,223,78,255) ;
     padding: 60px 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
 
+ }
+
+ .contacto {
+    width: 400px;
+ }
+
+ .contacto h2{
+   padding-bottom: 20px;
+    
+ }
+
+ .contacto p{
+    padding-bottom: 30px;
+
+ }
+
+ .redesFooter a {
+    color:dimgray;
+    margin-right: 10px;
+    }
+
+.formulario{
+    margin-left: 70px;
+    width: 500px;
+    justify-content: center;
 }
+ form {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    
+ }
+ 
+ .formulario h2{
+    padding-bottom: 20px;
+ }
+
+
+ label {
+    padding: 10px 0;
+ }
+
+ input {
+    padding: 5px;
+    border:0;
+    border-bottom: 1px solid grey;
+    background-color: rgba(245,223,78,255);
+
+ }
+
+ textarea{
+    resize: vertical;
+    height: 100px;
+    background-color: rgba(245,223,78,255);
+    border: 0;
+    border-bottom: 1px solid grey;
+
+ }
+
+ .enviar{
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: black;
+    border: 2px solid black;
+    margin-top: 10px;
+    width: 120px;
+ }
