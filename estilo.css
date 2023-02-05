@@ -1,8 +1,9 @@
 *{
     margin: 0;
     padding: 0;
+    }
     
-}
+
 
 .navegacion{
     background-color: white;
@@ -112,8 +113,6 @@ h2{
 .contenedor-acerca{
     display: flex;
     padding: 30px;
-    
-
 }
 
 .acerca-de-mi{
@@ -132,7 +131,8 @@ h2{
     
 }
 
-/*ver subrayar linea amarilla*/
+/*ver subrayar linea amarilla más gruesa*/
+
 .años{
     display: flex;
     align-items: center;
@@ -181,10 +181,52 @@ h2{
 
 
 .hero3-conocimientos{
-    background-color: rgb(231, 14, 137);
+    background-color: rgba(248,249,250,255);
     padding: 60px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+    
+}
+
+.caja{
+    width: 70%;
+    display: flex;
+    padding-top: 40px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+/*PREGUNTAR AL PROFE SI SE PUEDE PONER EN WUDTH 5!!!*/
+
+.caja i{
+    font-size: 70px;
+    color: rgba(245,223,78,255);
+    padding: 10px;
+    
+}
+
+.caja h3{
+    padding: 10px;
+}
+.caja p{
+    color: dimgrey;
+}
+
+
+.grafic, .design,.developer,.brand,.business,.marketing{
+    text-align: center;
+    width: 300px;
+    padding: 30px;
 
 }
+
+
+
+
 
 .hero4-resume{
     background-color: aquamarine;
