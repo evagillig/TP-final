@@ -12,8 +12,8 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    /*position: fixed;
-    top: 0;*/
+    position: fixed;
+    top: 0;
     
 }
 
@@ -33,9 +33,14 @@
     color:dimgray;
     margin-left: 10px;
 }
-/* falta poner header fijo + hover*/
+/* falta poner  hover*/
 
 /*inicia 1er section*/
+
+main {
+    width: 100%;
+}
+
 
 .hero1-inicio{
 background-color: rgba(245,223,78,255);
@@ -234,46 +239,79 @@ h2{
     background-color: aquamarine;
     padding: 60px 0;
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+}
+
+
+
+.tituloyexperiencia{
+    display: flex;
+    width: 1300px;
 
 }
-.titulos {
+.caja-titulos, .caja-experiencia {
     display: flex;
-    background-color: blueviolet;
-    width: 80%;
-    align-items: center;
+    width: 630px;   
+  
+}
+
+.edu-titulos, .experiencia {
+    padding: 0 41px 1px 6px;
+    border-left: 3px solid rgba(245,223,78,255);
     
-
 }
 
-.caja-estudios {
-    display: flex;
-    background-color: coral;
-    width: 500px;
-    flex-wrap: wrap;
 
+
+
+.habil {
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
-.titulo-a, .titulo-b,.titulo-c,.experiencia-a,.experiencia-b,.experiencia-c {
-    margin-left: 50px;
-    width: 500px;
-    background-color: bisque;
 
-}
-/*NO PUEDO HACER PARTE TITULOS*/
 
 .habilidades{
     background-color: deeppink;
+    width: 1300px;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 
+    
+    
 }
 
+.textos{
+    width: 630px;
+    padding: 10px 0;
+
+    
+        
+}
+
+.textos1{
+    width: 630px;
+    padding: 10px 0;
+    
+  
+        
+}
+/*
+.izquierda{
+    text-align: left;
+}
+
+.derecha {
+    text-align:unset;
+}
+VER UBICACION PALABRAS*/
 
 .contenedor {
-    width: 500px;
+    width: 625px;
     background-color:rgba(248,249,250,255) ;
     height: 4px;
     border-radius: 100px;
