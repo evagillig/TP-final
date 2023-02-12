@@ -19,6 +19,7 @@
     position: fixed;
     top: 0;
     
+    
 }
 
 .navegacion h1{
@@ -56,7 +57,7 @@
    
 }
 
-/*inicia 1er section*/
+/*COMIENZA CSS EN 1ER SECTION*/
 
 main {
     width: 100%;
@@ -69,10 +70,12 @@ padding: 80px 0;
 display: flex;
 justify-content: center;
 align-items: center;
+
 }
 
 .datos {
-    margin-right: 100px;
+    margin-right: 80px;
+    padding-top: 80px;
 
 }
 
@@ -81,30 +84,45 @@ align-items: center;
     font-size: 30px;
     font-family: 'Be Vietnam Pro', sans-serif;
     font-weight: 100;
+    padding-top: 80px;
 }
 
 .datos h1{
     font-size: 70px;
-    padding: 10px 0;
+    padding: 5px 0;
     font-family: 'Be Vietnam Pro', sans-serif;
     font-weight: 600 ;
 }
 
 .datos h3{
-    padding-bottom: 25px;
+    padding-bottom: 18px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 18px;
+
 
 }
 
-.datos button{
+.boton-trabajos{
     background-color: black;
     border: 1px solid black;
     color: white;
     padding: 10px 25px;
     margin-right: 30px;
+    font-size: 18px;
+    font-family:'Be Vietnam Pro', sans-serif;
 }
+
 
 .datos a{
     color: black;
+    font-family:'Be Vietnam Pro', sans-serif;
+    font-weight: bold;
+
+}
+
+.flecha{
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .img-perfil {
@@ -112,6 +130,7 @@ align-items: center;
     border-radius: 50%;
     border: 15px solid white;
     box-shadow: 5px 5px 100px rgb(109, 98, 64);
+    margin-top: 90px;
 } 
 
 
