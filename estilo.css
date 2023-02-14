@@ -308,20 +308,24 @@ h2{
    
 }
 
-/*PREGUNTAR AL PROFE SI SE PUEDE PONER EN WiDTH %!!!*/
 
 .caja i{
     font-size: 70px;
     color: rgba(245,223,78,255);
-    padding: 10px;
+    padding-bottom: 20px;
     
 }
 
 .caja h3{
     padding: 10px;
+    font-family:'Be Vietnam Pro', sans-serif ;
+    font-size: 23px;
+    font-weight: 600;
 }
 .caja p{
-    color: dimgrey;
+    color: rgb(120, 118, 118);
+    font-family:'Be Vietnam Pro', sans-serif ;
+    font-weight: 600;
 }
 
 
@@ -341,19 +345,19 @@ h2{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    
 }
-
 
 
 .tituloyexperiencia{
     display: flex;
-    width: 1300px;
+    width: 1400px;
 
 }
 .caja-titulos, .caja-experiencia {
     display: flex;
-    width: 630px;   
+    width: 630px;
+    padding-top: 50px;   
   
 }
 
@@ -362,6 +366,59 @@ h2{
     border-left: 3px solid rgba(245,223,78,255);
     
 }
+
+.edu-titulos h2{
+    padding: 5px 10px;
+    font-family:'Be Vietnam Pro', sans-serif ;
+    font-size: 22px;
+    font-weight: 600;  
+}
+
+.edu-titulos h3{
+    padding: 10px;
+    font-family:'Be Vietnam Pro', sans-serif ;
+    font-size: 20px;
+    font-weight: 600;  
+    color: rgb(63, 62, 62);
+}
+
+.edu-titulos p {
+    padding: 10px;
+    font-family:'Be Vietnam Pro', sans-serif ;
+    font-size: 16px; 
+    color: rgb(120, 118, 118);
+    font-weight: 600;
+}
+
+.linea {
+    margin: 25px 10px;
+}
+
+.experiencia h2{
+    padding: 5px 10px;
+    font-family:'Be Vietnam Pro', sans-serif ;
+    font-size: 22px;
+    font-weight: 600;  
+}
+
+.experiencia h3{
+    padding: 10px;
+    font-family:'Be Vietnam Pro', sans-serif ;
+    font-size: 20px;
+    font-weight: 600;  
+    color: rgb(63, 62, 62);
+}
+
+.experiencia p {
+    padding: 10px;
+    font-family:'Be Vietnam Pro', sans-serif ;
+    font-size: 16px; 
+    color: rgb(120, 118, 118);
+    font-weight: 600;
+}
+
+
+
 
 
 
