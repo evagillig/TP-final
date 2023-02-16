@@ -120,6 +120,7 @@ align-items: center;
     margin-right: 30px;
     font-size: 18px;
     font-family:'Be Vietnam Pro', sans-serif;
+    cursor: pointer;
 }
 
 
@@ -522,21 +523,10 @@ h2{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 /*COMIENZA SECCION HERO 5- */
 
 .hero5-portfolio{
-    background-color:white;
+    background-color: rgba(248,249,250,255);
     padding: 80px 0;
     display: flex;
     justify-content: center;
@@ -546,18 +536,27 @@ h2{
 }
 
 .imagenes {
-    width: 70%;
+    width: 1600px;
     display: flex;
     flex-wrap: wrap;
     padding: 15px 0;
+    justify-content: center;
+    margin-top: 70px;
 
 }
 
 img {
     width: 30%;
     margin: 10px;
+   
 
 }
+
+    
+
+
+
+
 
 /*INICIA FOOTER*/
 
@@ -568,28 +567,49 @@ footer{
     padding: 60px 0;
     display: flex;
     width: 100%;
-    justify-content: center;
+    justify-content: space-around;
+    
 
  }
 
  .contacto {
-    width: 400px;
+    width: 600px;
+    margin-left: 30px;
  }
 
  .contacto h2{
    padding-bottom: 20px;
+   font-family: 'Be Vietnam Pro', sans-serif;
     
  }
 
  .contacto p{
-    padding-bottom: 30px;
+    padding-bottom:  30px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 300;
 
  }
 
+ .contacto h3{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 600;
+ }
+
+ .redesFooter {
+    margin-top: 20px;
+ }
+
+
  .redesFooter a {
     color:dimgray;
-    margin-right: 10px;
+    margin-right: 12px;
+    font-size: 25px;
     }
+
+.redesFooter a :hover {
+    color:black;
+      
+        }
 
 .formulario{
     margin-left: 70px;
@@ -605,11 +625,14 @@ footer{
  
  .formulario h2{
     padding-bottom: 20px;
+    font-family: 'Be Vietnam Pro', sans-serif;
  }
 
 
  label {
     padding: 10px 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 300;
  }
 
  input {
