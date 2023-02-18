@@ -323,18 +323,22 @@ h2{
     font-family:'Be Vietnam Pro', sans-serif ;
     font-size: 23px;
     font-weight: 600;
+ 
 }
 .caja p{
     color: rgb(120, 118, 118);
     font-family:'Be Vietnam Pro', sans-serif ;
     font-weight: 600;
+    margin-top: 10px;
 }
 
 
 .grafic, .design,.developer,.brand,.business,.marketing{
     text-align: center;
     width: 300px;
-    padding: 30px;
+    height: 150px;
+    padding: 40px;
+    margin-top: 20px;
 
 }
 
@@ -365,6 +369,7 @@ h2{
 .edu-titulos, .experiencia {
     padding: 0 41px 1px 6px;
     border-left: 3px solid rgba(245,223,78,255);
+    height: 600px;
     
 }
 
