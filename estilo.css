@@ -73,11 +73,14 @@ main {
 
 
 .hero1-inicio{
+
 background-color: rgba(245,223,78,255);
 padding: 80px 0;
 display: flex;
+width: 100%;
 justify-content: space-around;
 align-items: center;
+
 
 }
 
@@ -85,6 +88,7 @@ align-items: center;
     margin-right: 10px;
     padding-top: 80px;
     margin-left: 95px;
+      
 
 }
 
@@ -117,25 +121,34 @@ align-items: center;
     border: 1px solid black;
     color: white;
     padding: 10px 25px;
-    margin-right: 30px;
+    margin-right: 35px;
     font-size: 18px;
     font-family:'Be Vietnam Pro', sans-serif;
     cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
 }
 
-
+  .boton-trabajos:hover {
+    background: #fff;
+    color: #212529;
+    
+  }
 
 .datos a{
     color: black;
     font-family:'Be Vietnam Pro', sans-serif;
     font-weight: 600;
-
 }
 
 .flecha{
-    font-weight: 900;
+    font-weight: bold;
     font-size: 20px;
+    margin-left: 10px;
 }
+
 
 
 
@@ -146,6 +159,7 @@ align-items: center;
     box-shadow: 5px 5px 100px rgb(109, 98, 64);
     margin-top: 90px;
     margin-right: 80px;
+    
 } 
 
 
@@ -512,12 +526,19 @@ h2{
 .descargar-cv{
     background-color: white;
     padding: 10px 30px;
-    border: 2px solid black;
     margin-top: 40px;
     font-family:'Be Vietnam Pro', sans-serif ;
     font-weight: 600;
     font-size: 18px;
-    
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    z-index: 0;
+    background: #fff;
+    overflow: hidden;
+    border: 2px solid black;
+    color:black;
 }
 
 .cv{
@@ -525,6 +546,26 @@ h2{
     text-decoration: none;
     }
 
+
+.descargar-cv:hover {
+    color: #fff;
+    }
+      
+.descargar-cv:hover:after {
+        width: 100%;
+    }
+      
+.descargar-cv:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: rgba(245,223,78,255);
+      }
 
 
 
@@ -553,12 +594,15 @@ h2{
 img {
     width: 30%;
     margin: 10px;
-   
-
 }
 
-    
+/*
+.cere:hover {
+    color: #fff;
+    width: 100%;
+    }
 
+*/
 
 
 
@@ -665,4 +709,14 @@ footer{
     border: 2px solid black;
     margin-top: 10px;
     width: 120px;
+    transition: all 0.4s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
  }
+
+ .enviar:hover {
+    background: #fff;
+    color: #212529;
+    
+  }
