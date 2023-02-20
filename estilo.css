@@ -1,13 +1,11 @@
-@import url('https://fonts.googleapis.com/css2? family= Be+Vietnam+Pro:wght@200 & display=swap');
-@import url('https://fonts.googleapis.com/css2? family= Be+Vietnam+Pro:wght@100 & display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Be+Vietnam+Pro:100,200,300,400,500,600,700,800,900');
+
 *{
     margin: 0;
     padding: 0;
     }
-  html {scroll-behavior: smooth;
+  
+    html {scroll-behavior: smooth;
 }  
 
 
@@ -24,11 +22,12 @@
     
 }
 
+
 .navegacion h1{
-   font-size: 30px; 
+   font-size: 1.875rem; 
    text-transform: uppercase;
    font-family: 'Be Vietnam Pro', sans-serif;
-   font-weight: 900;
+   font-weight: 700;
    margin-left: 75px;
   
 }
@@ -39,7 +38,7 @@
     color: black;
     font-family: 'Be Vietnam Pro', sans-serif;
     font-weight: 900;
-    font-size: 16px;
+    font-size: 1rem;
   
 }
 
@@ -57,7 +56,7 @@
 .redes a{
     color:dimgray;
     margin-left: 10px;
-    font-size: 18px;
+    font-size: 1.13rem;
 }
 
 .redes a :hover {
@@ -94,24 +93,24 @@ align-items: center;
 
 .datos h2{
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 2rem;
     font-family: 'Be Vietnam Pro', sans-serif;
-    font-weight: 100;
+    font-weight: 500;
     padding-top: 80px;
 }
 
 .datos h1{
-    font-size: 70px;
+    font-size: 4.7rem;
     padding: 5px 0;
     font-family: 'Be Vietnam Pro', sans-serif;
-    font-weight: 600 ;
+    font-weight: 700;
 }
 
 .datos h3{
     padding-bottom: 18px;
     font-family: 'Be Vietnam Pro', sans-serif;
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 1.125rem;
+    font-weight: 500;
 
 
 }
@@ -122,7 +121,7 @@ align-items: center;
     color: white;
     padding: 10px 25px;
     margin-right: 35px;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-family:'Be Vietnam Pro', sans-serif;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -145,11 +144,9 @@ align-items: center;
 
 .flecha{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.25rem;
     margin-left: 10px;
 }
-
-
 
 
 .img-perfil {
@@ -180,15 +177,16 @@ h4{
     padding: 2px 6px;
     background-color: rgba(245,223,78,255);
     font-family: 'Be Vietnam Pro', sans-serif;
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 1.25rem;
+    font-weight: 500;
 }
 
 h2{
     padding: 10px 0;
     font-family: 'Be Vietnam Pro', sans-serif;
-    font-size: 32px;
-    font-weight: 600;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.4;
 }
 
 
@@ -207,20 +205,21 @@ h2{
     padding: 10px 0;
     font-family:  'Be Vietnam Pro', sans-serif;
     line-height: 28px;
-    font-size: 20px;
-    font-weight: 300;
+    font-size: 1.25rem;
+    font-weight: 400;
 }
 
 .texto-hola{
     font-family: 'Be Vietnam Pro', sans-serif;
-    font-size: 25px;
-    font-weight: 200;
+    font-size: 1.62rem;
+    font-weight: 400;
+    
 }
 
 .eva{
-    font-weight: 700;
+    font-weight: 800;
     font-family: 'Be Vietnam Pro', sans-serif;
-    font-size: 25px;
+    font-size: 1.62rem;
     width: 20px;
     border-bottom-style: solid;
     border-bottom-color: rgba(245,223,78,255);
@@ -234,44 +233,45 @@ h2{
 .años{
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
     margin-left: 50px;
 }
 
 .años p{
     text-align: center;
-    padding: 20px;
+    padding: 30px;
     font-family: 'Be Vietnam Pro', sans-serif;
-    font-weight: 400;
-    font-size: 25px;
+    font-weight: 500;
+    font-size: 1.5625rem;
 }
 
 .exp{
-    font-size: 25px;
-    font-weight: 600;
+    font-size: 1.62rem;
+    font-weight: 700;
 }
 
 .contenedor-circulo{
     background-color: rgba(245,223,78,255);
     border-radius: 50%;
-    width:70px;
-    height: 70px;
-
+    width: 120px;
+    height: 120px;
+ 
 }
+
 .circulo {
-    font-size: 90px;
-   
+    font-size: 6.8rem;
+    font-weight: 600;
+    font-family:'Be Vietnam Pro', sans-serif; 
+    color: rgb(63, 62, 62);
+       
 }
 
 .datos-personales{
     display: flex;
-    padding: 30px;
     justify-content: space-between;
     width: 1300px;
-    
-   
-    
+       
 }
 
 .nombre,.email,.nacimiento, .from {
@@ -283,10 +283,10 @@ h2{
     font-family:'Be Vietnam Pro', sans-serif ;
     color: dimgrey;
     font-weight: 600;
-    font-size: 19px;
+    font-size: 1.135rem;
 }
 .datos-personales h5{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: 'Be Vietnam Pro', sans-serif;
     line-height: 40px;
     font-weight: 600;
@@ -315,9 +315,9 @@ h2{
 }
 
 .caja{
-    width: 70%;
+    width: 80%;
     display: flex;
-    padding-top: 40px;
+    padding: 40px 0;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -326,17 +326,17 @@ h2{
 
 
 .caja i{
-    font-size: 70px;
+    font-size: 4.375rem;
     color: rgba(245,223,78,255);
-    padding-bottom: 20px;
-    
+     
+       
 }
 
 .caja h3{
     padding: 10px;
     font-family:'Be Vietnam Pro', sans-serif ;
-    font-size: 23px;
-    font-weight: 600;
+    font-size: 1.44rem;
+    font-weight: 800;
  
 }
 .caja p{
@@ -344,15 +344,18 @@ h2{
     font-family:'Be Vietnam Pro', sans-serif ;
     font-weight: 600;
     margin-top: 10px;
+    font-size: 1.125rem;
+  
 }
 
 
 .grafic, .design,.developer,.brand,.business,.marketing{
     text-align: center;
-    width: 300px;
-    height: 150px;
-    padding: 40px;
-    margin-top: 20px;
+    width: 380px;
+    height: 160px;
+    padding: 50px;
+    margin-top: 40px;
+ 
 
 }
 
@@ -375,9 +378,9 @@ h2{
 }
 .caja-titulos, .caja-experiencia {
     display: flex;
-    width: 630px;
-    padding-top: 50px;   
-  
+    width: 650px;
+    padding-top: 50px;  
+      
 }
 
 .edu-titulos, .experiencia {
@@ -387,54 +390,61 @@ h2{
     
 }
 
+.edu-y-experiencia{
+    font-size: 1.9rem;
+    font-family:'Be Vietnam Pro', sans-serif ;
+   
+}
+
 .edu-titulos h2{
     padding: 5px 10px;
     font-family:'Be Vietnam Pro', sans-serif ;
-    font-size: 22px;
-    font-weight: 600;  
+    font-size: 1.375rem;
+    font-weight: 700;  
 }
 
 .edu-titulos h3{
     padding: 10px;
     font-family:'Be Vietnam Pro', sans-serif ;
-    font-size: 20px;
-    font-weight: 600;  
+    font-size: 1.25rem;
+    font-weight: 700;  
     color: rgb(63, 62, 62);
 }
 
 .edu-titulos p {
     padding: 10px;
     font-family:'Be Vietnam Pro', sans-serif ;
-    font-size: 16px; 
+    font-size: 1rem; 
     color: rgb(120, 118, 118);
-    font-weight: 600;
+    font-weight: 400;
 }
 
-.linea {
+.lineas {
     margin: 25px 10px;
+   
 }
 
 .experiencia h2{
     padding: 5px 10px;
     font-family:'Be Vietnam Pro', sans-serif ;
-    font-size: 22px;
-    font-weight: 600;  
+    font-size: 1.375rem;
+    font-weight: 700;  
 }
 
 .experiencia h3{
     padding: 10px;
     font-family:'Be Vietnam Pro', sans-serif ;
-    font-size: 20px;
-    font-weight: 600;  
+    font-size: 1.25rem;
+    font-weight: 700;  
     color: rgb(63, 62, 62);
 }
 
 .experiencia p {
     padding: 10px;
     font-family:'Be Vietnam Pro', sans-serif ;
-    font-size: 16px; 
+    font-size: 1rem; 
     color: rgb(120, 118, 118);
-    font-weight: 600;
+    font-weight: 400;
 }
 
 
@@ -442,6 +452,8 @@ h2{
     margin-top: 60px;
     padding-bottom: 20px;
     font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 1.9rem;
+    
 }
 
 
@@ -469,7 +481,7 @@ h2{
 
 .textosSkill p{
     font-family: 'Be Vietnam Pro', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 600;
 }
 
@@ -529,7 +541,7 @@ h2{
     margin-top: 40px;
     font-family:'Be Vietnam Pro', sans-serif ;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.125rem;
     transition: all 0.3s ease;
     position: relative;
     display: inline-block;
@@ -629,19 +641,22 @@ footer{
  .contacto h2{
    padding-bottom: 20px;
    font-family: 'Be Vietnam Pro', sans-serif;
-    
+   font-size: 1.82rem;
+   
  }
 
  .contacto p{
     padding-bottom:  30px;
     font-family: 'Be Vietnam Pro', sans-serif;
-    font-weight: 300;
+    font-size: 1.1rem;
+    font-weight: 400;
 
  }
 
  .contacto h3{
     font-family: 'Be Vietnam Pro', sans-serif;
     font-weight: 600;
+    font-size: 1.1rem;
  }
 
  .redesFooter {
@@ -652,7 +667,7 @@ footer{
  .redesFooter a {
     color:dimgray;
     margin-right: 12px;
-    font-size: 25px;
+    font-size: 1.4rem;
     }
 
 .redesFooter a :hover {
@@ -675,13 +690,15 @@ footer{
  .formulario h2{
     padding-bottom: 20px;
     font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 1.82rem;
  }
 
 
  label {
     padding: 10px 0;
     font-family: 'Be Vietnam Pro', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
+    font-size: 1rem;
  }
 
  input {
