@@ -18,7 +18,7 @@
     align-items: center;
     position: fixed;
     top: 0;
-    
+    z-index: 1; 
     
 }
 
@@ -55,8 +55,8 @@
 
 .redes a{
     color:dimgray;
-    margin-left: 10px;
-    font-size: 1.13rem;
+    margin-left: 12px;
+    font-size: 1.15rem;
 }
 
 .redes a :hover {
@@ -99,12 +99,13 @@ align-items: center;
     padding-top: 80px;
 }
 
-.datos h1{
+.deve{
     font-size: 4.7rem;
     padding: 5px 0;
     font-family: 'Be Vietnam Pro', sans-serif;
     font-weight: 700;
 }
+
 
 .datos h3{
     padding-bottom: 18px;
@@ -133,9 +134,10 @@ align-items: center;
   .boton-trabajos:hover {
     background: #fff;
     color: #212529;
+    transform: scale(1.2);
+    }
     
-  }
-
+  
 .datos a{
     color: black;
     font-family:'Be Vietnam Pro', sans-serif;
@@ -264,7 +266,10 @@ h2{
     font-weight: 600;
     font-family:'Be Vietnam Pro', sans-serif; 
     color: rgb(63, 62, 62);
-       
+           
+}
+.circulo:hover {
+    color: black;
 }
 
 .datos-personales{
@@ -599,25 +604,55 @@ h2{
     flex-wrap: wrap;
     padding: 15px 0;
     justify-content: center;
+    transition:all .5s ease-in-out;
     margin-top: 70px;
-
 }
 
 img {
     width: 30%;
     margin: 10px;
+       
 }
 
-/*
 .cere:hover {
-    color: #fff;
-    width: 100%;
+    filter: grayscale(50%);
+    transform:scale(1.02);
+    
     }
 
-*/
+.lapiz:hover {
+    filter: grayscale(50%);
+    transform:scale(1.02);
 
+    }
+.lapiz:hover {
+    filter: grayscale(50%);
+    transform:scale(1.02);
+    
+    }
+.foco:hover {
+    filter: grayscale(50%);
+    transform:scale(1.02);
+        
+    }
+    
+.te:hover {
+    filter: grayscale(50%);
+    transform:scale(1.02);
+        
+    }
 
+.tele:hover {
+    filter: grayscale(50%);
+    transform:scale(1.02);
+        
+    }
 
+.triangulo:hover {
+    filter: grayscale(50%);
+    transform:scale(1.02);
+        
+        }
 
 /*INICIA FOOTER*/
 
@@ -672,8 +707,7 @@ footer{
 
 .redesFooter a :hover {
     color:black;
-      
-        }
+     }
 
 .formulario{
     margin-left: 70px;
@@ -735,5 +769,6 @@ footer{
  .enviar:hover {
     background: #fff;
     color: #212529;
+    transform: scale(1.2);
     
   }
